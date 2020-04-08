@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.util.concurrent.TimeUnit;
-
+    //This class is base of all test case classes
 public class TestBase  extends BasePage {
 
 
