@@ -4,7 +4,7 @@ import com.letscodeit.learn.basepage.BasePage;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
+    //create a class for Browser Selector
 public class BrowserSelector extends BasePage {
 
     String projectPath = System.getProperty("user.dir");
@@ -23,7 +23,5 @@ public class BrowserSelector extends BasePage {
             System.out.println("Wrong browser name");
         }
     }
-
-
 }
 
