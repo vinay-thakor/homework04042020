@@ -6,7 +6,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import uk.co.barclays.basepage.BasePage;
     //crate a class to used a browser mathod
 public class BrowserSelector extends BasePage {
-    // create
+
     String projectPath = System.getProperty("user.dir");
 
     public void selectBrowser(String browser) {
